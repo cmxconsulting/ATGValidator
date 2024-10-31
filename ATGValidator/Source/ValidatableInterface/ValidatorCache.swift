@@ -21,6 +21,8 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 //
 
+import Foundation
+import CoreGraphics
 /**
  Validation handler closure.
  - parameter result: The result of the validation action.

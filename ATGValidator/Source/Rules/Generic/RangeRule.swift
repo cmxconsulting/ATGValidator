@@ -21,6 +21,8 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 //
 
+import Foundation
+import CoreGraphics
 /// Range rule. Values that define limit must conform to `Comparable` protocol.
 public struct RangeRule<T: Comparable>: Rule {
 

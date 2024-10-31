@@ -21,6 +21,8 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 //
 
+import Foundation
+import CoreGraphics
 /// String regex rule to match with regular expressions.
 public struct StringRegexRule: Rule {
 

@@ -21,6 +21,8 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 //
 
+import Foundation
+import CoreGraphics
 /// Character set rule to check if the input string contains chars from the passed in set.
 public struct CharacterSetRule: Rule {
 

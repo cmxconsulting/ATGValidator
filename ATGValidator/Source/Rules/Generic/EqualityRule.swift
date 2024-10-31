@@ -21,6 +21,8 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 //
 
+import Foundation
+import CoreGraphics
 /// Equality rule. Value to be checked for this rule must be conforming to `Equatable`.
 public struct EqualityRule<T: Equatable>: Rule {
 

@@ -21,6 +21,8 @@
 //  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 //
 
+import Foundation
+import CoreGraphics
 /// Rule to match the value to another UI elements's value. Eg usage is confirm password case.
 public struct StringValueMatchRule: Rule {
 

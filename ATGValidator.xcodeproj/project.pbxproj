@@ -39,6 +39,7 @@
 		966BD44C214E445500F7CC2A /* StringRegexRuleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966BD44B214E445500F7CC2A /* StringRegexRuleTests.swift */; };
 		96D50077214E75FF00F1E60E /* CharacterSetRuleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D50076214E75FF00F1E60E /* CharacterSetRuleTests.swift */; };
 		98955A1E21D20F7D0017499B /* RuleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98955A1D21D20F7D0017499B /* RuleTests.swift */; };
+		DFA808B42CD4282900E91A92 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFA808B32CD4282900E91A92 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +88,7 @@
 		966BD44B214E445500F7CC2A /* StringRegexRuleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringRegexRuleTests.swift; sourceTree = "<group>"; };
 		96D50076214E75FF00F1E60E /* CharacterSetRuleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSetRuleTests.swift; sourceTree = "<group>"; };
 		98955A1D21D20F7D0017499B /* RuleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleTests.swift; sourceTree = "<group>"; };
+		DFA808B32CD4282900E91A92 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/System/iOSSupport/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFA808B42CD4282900E91A92 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +142,7 @@
 			children = (
 				964F78092136B750004A6017 /* ATGValidator */,
 				964F78142136B750004A6017 /* ATGValidatorTests */,
+				DFA808B22CD4282800E91A92 /* Frameworks */,
 				964F78082136B750004A6017 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -227,6 +231,14 @@
 				9625E935213D2813003FB353 /* FormValidator.swift */,
 			);
 			path = ValidatableInterface;
+			sourceTree = "<group>";
+		};
+		DFA808B22CD4282800E91A92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFA808B32CD4282900E91A92 /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
