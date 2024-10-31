@@ -1,10 +1,5 @@
 # ATGValidator
 
-[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![CocoaPods](https://img.shields.io/cocoapods/v/ATGValidator.svg)](https://cocoapods.org/pods/ATGValidator)
-[![GitHub issues](https://img.shields.io/github/issues/altayer-digital/ATGValidator.svg)](https://github.com/altayer-digital/ATGValidator/issues)
-[![GitHub license](https://img.shields.io/github/license/altayer-digital/ATGValidator.svg)](https://github.com/altayer-digital/ATGValidator/blob/master/LICENSE.md)
-
 ATGValidator is a validation framework written to address most common issues faced while verifying user input data. 
 
 You can use it to validate different data types directly, or validate ui components like UITextfield or UITextView, or even add validation support to your custom UI elements. You don't need to subclass native components to get the validation support. UITextField and UITextView has the support out of the box, adding support for any other elements is as simple as adding an extension with protocol conformance to `ValidatableInterface`.
